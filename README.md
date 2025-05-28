@@ -28,7 +28,7 @@ movie-genre-classifier/
     └── movie_genre_classification_colab.ipynb  # ไฟล์ Notebook (ต้องเพิ่มเอง)
 ```
 
-## 📦 ข้อมูลที่ใช้
+## 📦 ข้อมูลที่ใช้ Dataset
 - [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - ประกอบด้วย:
   - `tmdb_5000_movies.csv` – ข้อมูลเรื่องย่อ, ชื่อเรื่อง, ประเภท
