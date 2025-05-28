@@ -6,27 +6,7 @@
 
 เพื่อพัฒนาระบบที่สามารถวิเคราะห์และจำแนกแนวภาพยนตร์จากข้อความเรื่องย่อโดยอัตโนมัติ ซึ่งเป็นการประยุกต์ใช้เทคนิค Natural Language Processing (NLP) และ Machine Learning เพื่อช่วยในงานแนะนำเนื้อหา การจัดหมวดหมู่ หรือการสร้างระบบแนะนำ (recommendation system) โดยระบบนี้สามารถทำนายได้มากกว่าหนึ่งประเภทต่อเรื่อง (multi-label classification)
 
-## 📁 โครงสร้างโปรเจกต์
 
-```
-movie-genre-classifier/
-│
-├── app.py                     # แอป Streamlit สำหรับผู้ใช้งาน
-├── model.pkl                  # โมเดลที่เทรนแล้ว 
-├── vectorizer.pkl             # TF-IDF vectorizer ที่ฝึกแล้ว 
-├── mlb.pkl                    # MultiLabelBinarizer สำหรับ genres 
-│
-├── requirements.txt           # รายการไลบรารีที่จำเป็น
-├── README.md                  # คำอธิบายโปรเจกต์
-├── .gitignore                 # กันไม่ให้ Git track ไฟล์ที่ไม่จำเป็น
-│
-├── data/
-│   ├── tmdb_5000_movies.csv   # ข้อมูลภาพยนตร์ 
-│   └── tmdb_5000_credits.csv  # ข้อมูลเครดิตภาพยนตร์ 
-│
-└── notebooks/
-    └── movie_genre_classification_colab.ipynb  # ไฟล์ Notebook 
-```
 
 ## 📦 ข้อมูลที่ใช้ Dataset
 - [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
