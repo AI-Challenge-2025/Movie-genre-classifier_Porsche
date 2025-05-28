@@ -12,4 +12,10 @@ Starter: TMDB 5000 Movie Dataset d5dab3d2-7
 
 https://www.kaggle.com/code/ryuseiko/starter-tmdb-5000-movie-dataset-d5dab3d2-7/input
 
+![image](https://github.com/user-attachments/assets/8a983978-cb4e-44fb-a004-e7abdcce3db8)
 
+## ⚙️ ขั้นตอนการติดตั้งและใช้งาน
+
+1. ติดตั้งไลบรารีที่จำเป็น:
+   ```bash
+   pip install -r requirements.txt
