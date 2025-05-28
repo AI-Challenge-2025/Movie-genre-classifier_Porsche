@@ -12,20 +12,20 @@
 movie-genre-classifier/
 │
 ├── app.py                     # แอป Streamlit สำหรับผู้ใช้งาน
-├── model.pkl                  # โมเดลที่เทรนแล้ว (ต้องเพิ่มเอง)
-├── vectorizer.pkl             # TF-IDF vectorizer ที่ฝึกแล้ว (ต้องเพิ่มเอง)
-├── mlb.pkl                    # MultiLabelBinarizer สำหรับ genres (ต้องเพิ่มเอง)
+├── model.pkl                  # โมเดลที่เทรนแล้ว 
+├── vectorizer.pkl             # TF-IDF vectorizer ที่ฝึกแล้ว 
+├── mlb.pkl                    # MultiLabelBinarizer สำหรับ genres 
 │
 ├── requirements.txt           # รายการไลบรารีที่จำเป็น
 ├── README.md                  # คำอธิบายโปรเจกต์
 ├── .gitignore                 # กันไม่ให้ Git track ไฟล์ที่ไม่จำเป็น
 │
 ├── data/
-│   ├── tmdb_5000_movies.csv   # ข้อมูลภาพยนตร์ (ต้องเพิ่มเอง)
-│   └── tmdb_5000_credits.csv  # ข้อมูลเครดิตภาพยนตร์ (ต้องเพิ่มเอง)
+│   ├── tmdb_5000_movies.csv   # ข้อมูลภาพยนตร์ 
+│   └── tmdb_5000_credits.csv  # ข้อมูลเครดิตภาพยนตร์ 
 │
 └── notebooks/
-    └── movie_genre_classification_colab.ipynb  # ไฟล์ Notebook (ต้องเพิ่มเอง)
+    └── movie_genre_classification_colab.ipynb  # ไฟล์ Notebook 
 ```
 
 ## 📦 ข้อมูลที่ใช้ Dataset
